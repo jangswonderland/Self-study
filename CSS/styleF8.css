@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    border-top: 30px solid #333;
+    border-bottom: 30px solid #333;
+}
+
+.navbar h1 {
+    color: brown;
+    margin-left: 10px;
+}
+
+.navbar ol {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    list-style: none;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width:100px;
+    height: 50px;
+    
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(255, 251, 196);
+    text-decoration: none;
+}
+
+.navbar a:active {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.content h1 {
+    color: brown;
+    text-decoration: none;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 5px;
+    margin: 20px auto;
+}
+
+.img img {
+    margin: 10px;
+}
+
+.box a {
+    font-size: 26px;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: rgb(255, 251, 196);
+    text-decoration: none;
+}
+
+.box a:active {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.content h1 {
+    margin-top: 160px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.box {
+    float: left;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px; 
+    border-style: solid;
+    border-color: burlywood;
+    margin: 10px 20px;
+}
+
+.box.box1 {
+    background-color: lightcoral;
+}
+
+.box.box2 {
+    background-color: lightslategray;
+}
+
+.box.box3 {
+    background-color: lightseagreen;
+}
+
+.bg-dark {
+    background-color: #333;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 15px #ccc dashed;
+    background-clip: content-box;
+    background-size: 100%;
+}
+
+.bg .bg-img {
+    width: 100%;
+    height: 95vh;
+    background-image: url("https://previews.123rf.com/images/karenr/karenr1506/karenr150600007/40831894-blue-and-white-striped-gingham-tile-pattern-repeat-background-that-is-seamless-and-repeats.jpg");
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px 0;
+    border: 20px rgb(121, 138, 182) dashed;
+    background-size: 100%;
+    background-clip: content-box;
+}
+
+.block {
+    width: 100%;
+    height: 120px;
+    background-color: #aaaaaa;
+    position: relative;
+}
+
+.block-child {
+    width: 30%;
+    height: 50%;
+    background-color: rgba(26, 26, 26, 0.37);
+    position: absolute;
+    top: 0;
+    right: 0;
+}

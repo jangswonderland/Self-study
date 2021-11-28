@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 7px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+p {
+    margin: 20px;
+}
+
+.invite {
+    background-color: #f2f2f2;
+    padding: 20px 0 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-mail {
+    color: #70cbce;
+    display: inline-block;
+    margin: 25px 0 10px;
+    border: 2px solid #70cbce;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.logo-mail i {
+    font-size: 30px;
+}
+
+#email {
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+#req {
+    padding: 18px 25px;
+    border: 1px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #70cbce;
+}
+
+#req:hover {
+    background-color: orangered;
+}
+
