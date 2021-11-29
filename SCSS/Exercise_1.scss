@@ -1,0 +1,62 @@
+@mixin align ($align, $var){
+    #{$align}: center;
+    margin: $var;
+}
+
+@mixin align-word($var1, $var2) {
+    font-size: $var1;
+    margin: $var2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font: {
+        family: Helvetica, sans-serif;
+        size: 16px;
+    }
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.best-shared {
+    @include align(text-align, 10px);
+    strong {
+        color: rgb(55, 119, 91);
+    }
+    h2 {
+        font-size: 45px;
+        margin: 20px;
+    }
+}
+
+.logo-box {
+    @include align(align-items, 10px);
+}
+
+.lead-1 {
+    @include align-word(16px, 30px);
+}
+
+.btn {
+    li {
+        display: inline;
+        list-style: none;
+        margin: 10px;
+    }
+    a {
+        display: inline-block;
+        color: white;
+        background-color: #333;
+        border: #333 solid;
+        padding: 15px 30px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}

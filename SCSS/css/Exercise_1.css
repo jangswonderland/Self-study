@@ -17,20 +17,16 @@ h2 {
   text-align: center;
   margin: 10px;
 }
-
 .best-shared strong {
   color: #37775b;
 }
-
 .best-shared h2 {
   font-size: 45px;
   margin: 20px;
 }
 
 .logo-box {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 10px;
 }
 
